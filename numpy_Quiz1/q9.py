@@ -21,3 +21,4 @@ sns_plot = sns.regplot(x=x_data, y=y_data, line_kws={'color': 'red'})
 # 출력을 위한 함수
 fig = sns_plot.get_figure()
 fig.savefig("plot.png")
+
