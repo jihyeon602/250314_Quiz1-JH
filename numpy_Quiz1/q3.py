@@ -20,5 +20,5 @@ array4 = array3.reshape((3,2,2))
 print("\n(3,2,2) array4:\n", array4)
 
 # array4의 3개의 (2,2)행렬 중 첫 번째 행렬을 구합니다.
-array5 = array4[0,:]
+array5 = array4[0,:,:]
 print("\narray4의 3개의 (2,2)행렬 중 첫 번째 행렬:\n", array5)
